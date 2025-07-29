@@ -42,6 +42,13 @@ export function Welcome() {
           </nav>
         </div>
       </div>
+      <button></button>
+    <a
+      href="/hello"
+      className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+    >
+      переход на hello
+    </a>
     </main>
   );
 }
