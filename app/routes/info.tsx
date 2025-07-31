@@ -22,11 +22,12 @@ export default function Info() {
   if (error) return <p className="text-red-500">Ошибка: {error}</p>;
 
   return (
+    
     <main>
       <h1>Информация с сервера</h1>
       {data && (
         <div>
-          <p>с сервера: {data.name}</p>
+          <p>с сервера: имя:{data.name}, фамилия:{data.surname} возраст: {data.age}</p>
         </div>
       )}
       <a
